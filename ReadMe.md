@@ -1,21 +1,21 @@
-# Force Subscribe Bot
-Forces a user to join your group/channel so as to be able to message in a group.
+# Venz Force Subscribe Bot
+Memaksa pengguna untuk bergabung dengan grup/saluran Anda agar dapat mengirim pesan dalam grup.
 
-# Features
-- Checks for all newly joined members with a customisable welcome message.
-- Checks for users who are already in the group but has not joined the channel.
+# Fitur
+- Cek untuk semua anggota yang baru bergabung dengan pesan selamat datang yang dapat disesuaikan.
+- Mengecek user yang sudah ada di grup tapi belum join channel.
 
 # Variables
-- `API_ID` - Your telegram api id from my.telegram.org
-- `API_HASH` - Your telegram api hash from my.telegram.org
-- `BOT_TOKEN` - Your telegram bot token.
-- `CHANNEL` - Username of the channel/group where users must join.
-- `WELCOME_MSG` - The welcome message you want.
-`WELCOME_NOT_JOINED` - Welcome message to show if user is not in the channel.
-- `ON_JOIN` - True/False - Set as True if the user must be muted, if not in Channel/group, directly when he joins.
-- `ON_NEW_MSG` - True/False - Set as True if the user must be muted, if not in Channel/group, on sending a message.
+- `API_ID` - ID telegram api Anda dari my.telegram.org
+- `API_HASH` - Hash telegram api Anda dari my.telegram.org
+- `BOT_TOKEN` - Token bot telegram Anda.
+- `CHANNEL` - Nama pengguna saluran/grup tempat pengguna harus bergabung.
+- `WELCOME_MSG` - Pesan welcome yang kamu mau
+`WELCOME_NOT_JOINED` - Pesan selamat datang untuk menunjukkan jika pengguna tidak ada di channel
+- `ON_JOIN` - True/False - Tetapkan sebagai True jika pengguna harus dibisukan, jika tidak di Channel/group, langsung ketika dia bergabung.
+- `ON_NEW_MSG` - True/False - Ditetapkan sebagai True jika pengguna harus dibisukan, jika tidak di Channel/grup, kirim pesan.
 
-Note: `WELCOME_MSG` and `WELCOME_NOT_JOINED` can both be formatted using parameters like `{mention}`, `{title}`, `{fullname}`, `{username}`, `{name}`, `{last}`, `{channel}`
+Note: `WELCOME_MSG` and `WELCOME_NOT_JOINED` keduanya dapat diformat menggunakan parameter seperti `{mention}`, `{title}`, `{fullname}`, `{username}`, `{name}`, `{last}`, `{channel}`
 
 # Deploy to heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
@@ -30,4 +30,5 @@ Note: `WELCOME_MSG` and `WELCOME_NOT_JOINED` can both be formatted using paramet
 # Credits
 - [Telethon](https://github.com/LonamiWebs/Telethon)
 - [BotzHub](https://t.me/BotzHub)
-- [Me](https://xditya.me/tg)
+- [Venz](https://t.me/moonscrsh)
+- [Adit](https://xditya.me/tg)
