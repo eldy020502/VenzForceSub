@@ -1,4 +1,7 @@
 # Venz Force Subscribe Bot
+<p align="center">
+  <img src="https://telegra.ph/file/78d150a3ce9488dcaa7cf.jpg"
+</p>
 Memaksa pengguna untuk bergabung dengan grup/saluran Anda agar dapat mengirim pesan dalam grup.
 
 # Fitur
