@@ -7,7 +7,7 @@
         "telethon",
         "telegram-bot"
     ],
-    "repository": "https://github.com/xditya/ForceSub",
+    "repository": "https://github.com/eldy020502/VenzForceSub",
     "website": "xditya.me",
     "success_url": "https://t.me/BotzHub",
     "env": {
